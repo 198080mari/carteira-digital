@@ -1,6 +1,11 @@
-function App() {
+import Signin from "./pages/Signin";
 
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+function App() {
+  return (
+    <main className="flex items-center justify-center h-screen">
+      <Signin />
+    </main>
+  );
 }
 
 export default App
